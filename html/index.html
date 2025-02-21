@@ -10,16 +10,16 @@
   <body>
     <div id="app">
       <header>
-        <h1>
-          <img src="../images/header-logo.png" alt="행성이 로고" />
-          <span>크루 위키</span>
+        <h1 class="logo">
+          <img src="../images/header-logo.png" alt="행성이 로고" width="166" height="147" />
+          <span class="text">크루 위키</span>
         </h1>
       </header>
       <main>
-        <h2>크론</h2>
-
+        <h2 class="title">크론</h2>
+        <hr />
         <section>
-          <h3>자기소개</h3>
+          <h3 class="subtitle">자기소개</h3>
           <p>
             안녕하세요, 저는 끊임없이 새로운 도전을 통해 성장하는 것을 즐기는 크론이에요. 안정적인 삶에서 벗어나 세 번의
             큰 전환점을 겪으며 지금의 제가 되었어요. 어제보다 더 나은 오늘의 나를 만들기 위해 노력하고 있죠. 매일의 작은
@@ -30,9 +30,16 @@
         </section>
 
         <section>
-          <h3>나를 울린 인생 작품</h3>
+          <h3 class="subtitle">나를 울린 인생 작품</h3>
           <article>
             <h4>인생 영화</h4>
+            <div class="thumbnail">
+              <img
+                src="https://image.tmdb.org/t/p/w1280/u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg"
+                width="200"
+                alt="그래비티 영화 포스터"
+              />
+            </div>
             <p>
               알폰소 쿠아론 감독이 연출하고 샌드라 불럭이 주연으로 출연하는 영화 「그래비티」는 우주 정거장에서 임무
               수행 중 고립된 한 우주인의 생존과 귀환을 그린 작품이다. 대학생 시절 처음 본 이 영화는 당시엔 그저 지루한
@@ -71,22 +78,28 @@
         </section>
 
         <footer>
-          <img src="../images/footer-logo.png" alt="우아한테크코스 로고" />
+          <img src="../images/footer-logo.png" width="180" alt="우아한테크코스 로고" />
           <p>&copy; 우아한테크코스 All Rights reserved.</p>
         </footer>
       </main>
-      <aside>
+      <aside class="right-sidebar">
         <div class="profile-image">크론 프로필 이미지</div>
         <nav>
           <h2>Contents</h2>
-          <ul>
+          <ol class="contents">
             <li>
               <a href="#">자기소개</a>
             </li>
             <li>
+              <a href="#">나만의 갤러리</a>
+            </li>
+            <li>
               <a href="#">나를 울린 인생 작품</a>
             </li>
-          </ul>
+            <li>
+              <a href="#">감상평</a>
+            </li>
+          </ol>
         </nav>
       </aside>
     </div>
