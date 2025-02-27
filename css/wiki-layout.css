@@ -107,7 +107,7 @@ aside h2 {
 }
 
 .profile-image {
-  background-image: url("/images/profile-image.JPG");
+  background-image: url("../images/profile-image.JPG");
   background-size: 100px;
   background-position: center 100%;
   width: var(--aside-width);
